@@ -1,0 +1,6 @@
+.testimonials-page {
+    @include page;
+    h1 {
+        @include headerTitle;
+    }
+}

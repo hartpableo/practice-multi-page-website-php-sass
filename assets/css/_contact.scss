@@ -1,0 +1,9 @@
+.contact-page {
+    @include page;
+    h1 {
+        @include headerTitle;
+    }
+    form {
+        @include form;
+    }
+}

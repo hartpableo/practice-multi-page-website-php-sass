@@ -1,0 +1,167 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left bottom, right top, from(rgba(0, 151, 151, 0.65)), to(rgba(0, 151, 151, 0.4)));
+  background: linear-gradient(to top right, rgba(0, 151, 151, 0.65), rgba(0, 151, 151, 0.4));
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+body header nav {
+  width: inherit;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: inherit;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  color: #222;
+  padding: 1.5em 2.5em;
+  display: block;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+body header nav ul li a:hover {
+  background: #222;
+  color: gold;
+}
+
+body .home-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 2rem 0 2rem;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .home-section h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+body .home-section .grid {
+  width: 100%;
+  padding: 1rem;
+  min-height: 70vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (180px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 180px);
+  -ms-grid-rows: (180px)[auto-fit];
+      grid-template-rows: repeat(auto-fit, 180px);
+  gap: 10px;
+}
+
+body .home-section .grid .grid-item {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: gold;
+}
+
+body footer {
+  text-align: center;
+  background: #222;
+  width: 100%;
+  padding: 1rem;
+  color: gold;
+}
+
+.about-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 2rem 0 2rem;
+}
+
+.about-page h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.testimonials-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 2rem 0 2rem;
+}
+
+.testimonials-page h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.services-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 2rem 0 2rem;
+}
+
+.services-page h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.contact-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 2rem 0 2rem;
+}
+
+.contact-page h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.contact-page form {
+  width: 10rem;
+  margin: auto;
+}
+
+.contact-page form input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

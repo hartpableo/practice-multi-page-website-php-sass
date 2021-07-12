@@ -1,0 +1,25 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin headerTitle {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+@mixin page {
+    width: 100%;
+    min-height: 100vh;
+    padding: 8rem 2rem 0 2rem;
+}
+
+@mixin form {
+    width: 10rem;
+    margin: auto;
+    input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
