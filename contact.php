@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Contact Us';
     include 'header.php';
 ?>
     <section class="contact-page">

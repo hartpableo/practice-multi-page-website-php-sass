@@ -1,4 +1,5 @@
 <?php 
+    $title = 'About Us';
     include 'header.php';
 ?>
 <section class="about-page">

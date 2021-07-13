@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Our Services';
     include 'header.php';
 ?>
     <section class="services-page">

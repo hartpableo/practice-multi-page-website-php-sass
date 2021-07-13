@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Home | Multi-page Website Practice';
     include 'header.php';
 ?>
 <section class="home-section">

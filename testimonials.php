@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Testimonials';
     include 'header.php';
 ?>
     <section class="testimonials-page">
